@@ -41,11 +41,7 @@ public class PageZoomDemo {
 	@Test(priority=3)
 	public void zoomdefault()
 	{
-		for(int i=0;i<5;i++)
-		{
 		driver.findElement(By.xpath("//a[contains(text(),'PILGRIMAGES ')]")).sendKeys(Keys.CONTROL,"0");
-		
-	}
 	}
 	@AfterTest
 	public void teardown()
